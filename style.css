@@ -105,13 +105,15 @@ nav .nav-list li.btn:hover a{
 .text-scramble{
   color: #49FE97;
   font-family: monument;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
+  letter-spacing: 2px;
 }   
 
 
 h2{
   color: #49FE97;
   font-family: monument;
+  letter-spacing: 2px;
 }
 
 span{
@@ -220,6 +222,7 @@ h3{
   padding-top: 2%;
   line-height: 1.5;
   color: white;
+  letter-spacing: 2px; 
 }
 
 .about .container-about p{
