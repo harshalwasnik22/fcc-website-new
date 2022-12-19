@@ -60,6 +60,7 @@ class TextScramble {
   // Example
   // ——————————————————————————————————————————————————
   
+
   const phrases = [
     'HI,',
     "WE'RE",
@@ -74,7 +75,7 @@ class TextScramble {
   let counter = 0
   const next = () => {
     fx.setText(phrases[counter]).then(() => {
-      setTimeout(next, 900)
+      setTimeout(next, 1100)
     })
     counter = (counter + 1) % phrases.length
   }

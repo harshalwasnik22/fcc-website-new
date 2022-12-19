@@ -107,6 +107,7 @@ nav .nav-list li.btn:hover a{
   font-family: monument;
   font-size: 2.3rem;
   letter-spacing: 2px;
+
 }   
 
 
@@ -283,7 +284,7 @@ h3{
 .team-member .desgi{
   color: black;
   font-family: mont;
-  margin: 6zpx;
+  margin: 6px;
   font-size:12px;
 }
 
@@ -415,6 +416,10 @@ img{width: 100%;}
     display: none;
     
   }
+
+  .text-scramble{
+    height: 7rem;
+  }
  
   
 }
@@ -430,5 +435,20 @@ img{width: 100%;}
     width: 80%;
     margin-top:75px;
   }
+
+  .text-scramble{
+    height: 9rem;
+  }
+
+  
+}
+
+
+@media only screen and (max-width: 512px) {
+  
+  .text-scramble{
+    height: 11rem;
+  }
+
   
 }
