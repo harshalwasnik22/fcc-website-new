@@ -9,8 +9,8 @@
 }
 
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   outline:0;
   box-sizing: border-box;
   text-decoration: none;
@@ -130,7 +130,7 @@ span{
 
 .container .hero-text{
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: mont;
   line-height: 1.2;
   margin: 20px 0 20px 
@@ -264,11 +264,148 @@ h3{
   letter-spacing: 0.05rem;
 }
 
-
-
-
-
 /* Events */
+
+/* Team */
+.flex{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; 
+}
+
+.team-inner{
+  max-width: 1400px;
+  margin: 0 auto;
+  font-family: mont;
+  
+}
+
+.team-member .desgi{
+  color: black;
+  font-family: mont;
+  margin: 6zpx;
+  font-size:12px;
+}
+
+img{width: 100%;}
+
+.team-container{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading{
+  width:100%;
+  padding-top: 40px;
+}
+
+.heading h2{ 
+  font-size:25px; 
+}
+
+.heading p{
+  font-size: 15px;
+  font-family: monument;
+  margin: 1.5%;
+  color: black;
+}
+
+.team-wrap{
+  width:19%;
+  margin-top: 40px;
+}
+
+.team-img img{
+    -webkit-transition: all .2 ease-in-out;
+    overflow: hidden;
+    width:100%;
+}
+
+.team-member .team-img{
+  position: relative;
+  overflow: hidden;
+}
+
+.team-title{
+  margin: 15px 0 7px;
+  font-size: 1.1rem;
+  font-family: mont;
+}
+
+.overlay{
+  background-color: rgba(20,20,20,0.7);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition:all .2s ease-in-out;
+
+}
+
+.team-details{
+  opacity: 0;
+  top:50%;
+  padding:5%;
+  position: absolute;
+  overflow: hidden;
+  z-index: 2;
+  width: 100%;
+  left:0;
+}
+
+.team-details p{
+  color: #fff;
+}
+
+.team-img:hover .team-details{
+  opacity: 1;
+  margin-top: -80px;
+}
+
+.team-img:hover .overlay{
+  opacity: 1;
+}
+
+.socials a{
+  display: inline-block;
+  width: 37px;
+  height: 37px;
+  background-color: transparent;
+}
+
+.socials span{
+  line-height: 37px;
+  color: #616161;
+  font-size: 14px;
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  text-align: center;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.team-details .socials span{
+  color:#fff;
+  margin-top:30px;
+  font-size: 20px;
+}
+
+.socials a:hover span{
+  color: rgb(17,13,13);
+  background-color: #fff;
+}
+
+
+
+
+
+
+/* Team */
 
 
 
@@ -279,5 +416,19 @@ h3{
     
   }
  
+  
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .main-box{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-wrap{
+    width: 80%;
+    margin-top:75px;
+  }
   
 }
