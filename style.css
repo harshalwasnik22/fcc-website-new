@@ -214,12 +214,10 @@ h3{
 }
 
 .about .container-about h1{
-  padding-bottom: 2%;
   font-family: monument;
   font-size: 1.7rem;
   margin: 1%;
   text-align: center;
-  padding-top: 2%;
   line-height: 1.5;
   color: white;
   letter-spacing: 2px; 
@@ -227,14 +225,14 @@ h3{
 
 .about .container-about p{
   font-family: mont;
-  font-weight: 400;
+  font-weight: 200;
   text-align: justify;
   padding: 1.5rem;
   color: white;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 1.5;
   padding-top: 0;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.01rem;
 }
 /* Events */
 .events{
@@ -255,6 +253,14 @@ h3{
   text-align: center;
 }
 
+.events-cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .events-text{
   font-family: mont;
   font-weight: 300;
@@ -266,141 +272,9 @@ h3{
   letter-spacing: 0.05rem;
 }
 
-.events-cards {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
-.item-container {
-  position: relative;
-  margin: 24px;
-  width: 320px;
-  height: 570px;
-  overflow: hidden;
-  background-color: #fff;
-  box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  font-family: mont;
-}
 
-.img-container,
-.body-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.item-container p{
-  color:rgb(0, 0, 0);
-  font-weight: 500;
-}
 
-.img-container img {
-  width: 100%;
-  
-}
-
-.body-container {
-  position: relative;
-}
-
-.events-overlay {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  background-color: rgba(24, 83, 122, 0.6);
-  opacity: 0;
-  transition: height linear 0.4s, opacity linear 0.2s;
-}
-
-.item-container:hover .events-overlay {
-  opacity: 1;
-  height: 150px;
-}
-
-.events-info {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 8px;
-}
-
-.events-title,
-.price {
-    color: #18537a;
-    font-size: 1.5em;
-    font-weight: bold;
-    letter-spacing: 1px;
-    margin: 12px;
-}
-.info {
-  letter-spacing: 0.5px;
-  margin-bottom: 6px;
-}
-
-.separator {
-  width: 20%;
-  height: 6px;
-  background-color: #17537a;
-  margin-bottom: 16px;
-}
-
-.additional-info {
-  border-top: 1px solid #bbb;
-  margin-top: 12px;
-  padding: 28px;
-  /* padding-bottom: 0; */
-}
-
-.additional-info .info {
-  font-size: 0.9em;
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.info i {
-  color: #18537a;
-  font-size: 1.1em;
-  margin-right: 4px;
-}
-
-.info span {
-  color: #18537a;
-  font-weight: bolder;
-}
-
-.action {
-  color: #fff;
-  border: 3px solid #fff;
-  background-color: transparent;
-  position: absolute;
-  top: -100px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60%;
-  outline: none;
-  cursor: pointer;
-  padding: 12px;
-  text-transform: uppercase;
-  font-size: 1.3em;
-  font-weight: bold;
-  letter-spacing: 2px;
-  transition: background-color 0.4s, top 0.4s;
-}
-
-.item-container:hover .action {
-  top: 50px;
-}
-
-.action:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
 
 
 
@@ -409,10 +283,16 @@ h3{
 /* Events */
 
 /* Team */
+
+.team{
+  background-color: black;
+  padding-bottom: 20px;
+}
 .flex{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between  ;
   align-items: center; 
+  flex-wrap: wrap;
 }
 
 .team-inner{
@@ -423,7 +303,7 @@ h3{
 }
 
 .team-member .desgi{
-  color: black;
+  color: #49FE97;
   font-family: mont;
   margin: 6px;
   font-size:12px;
@@ -433,7 +313,7 @@ img{width: 100%;}
 
 .team-container{
   width: 100%;
-  height: 100vh;
+  /* height: 120vh; */
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -444,20 +324,18 @@ img{width: 100%;}
   padding-top: 40px;
 }
 
-.heading h2{ 
-  font-size:25px; 
-}
-
-.heading p{
-  font-size: 15px;
+.team-container p{
+  font-size: 1.4rem;
   font-family: monument;
   margin: 1.5%;
-  color: black;
+  color: white;
 }
 
 .team-wrap{
-  width:19%;
+  width: 18%;
   margin-top: 40px;
+  min-width: 240px;
+  margin: 10px;
 }
 
 .team-img img{
@@ -475,6 +353,7 @@ img{width: 100%;}
   margin: 15px 0 7px;
   font-size: 1.1rem;
   font-family: mont;
+  color: white;
 }
 
 .overlay{
@@ -532,7 +411,7 @@ img{width: 100%;}
 }
 
 .team-details .socials span{
-  color:#fff;
+  color:#49FE97;
   margin-top:30px;
   font-size: 20px;
 }
@@ -542,6 +421,81 @@ img{width: 100%;}
   background-color: #fff;
 }
 
+.managers{
+  margin-top: 40px;
+}
+
+.managers h2{
+    font-size: 30px;
+	text-align: center;
+	margin-top:30px;
+    margin-bottom: 30px;
+	color:  #49FE97;
+	font-weight: 700;
+    font-family: monument;
+}
+.manager_container, .manager_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.manager_container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.manager_item {
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 250px;
+    background-color: black;
+    border-radius: 7px;
+    flex-direction: column;
+    border: 1px solid #fff;
+    color: white;
+    font-family: mont;
+    font-size: 1.25rem;
+}
+.associates{
+	margin-top: 40px;
+   
+}
+.associates h2{
+    font-size: 30px;
+	text-align: center;
+	margin-top:30px;
+    margin-bottom: 30px;
+	color:  #49FE97;
+	font-weight: 700;
+    font-family: monument;
+
+}
+.associate_container, .associate_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.associate_container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+.associate_item {
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 250px;
+    background-color: black;
+    border-radius: 7px;
+    flex-direction: column;
+    border: 1px solid #fff;
+    color: white;
+    font-family: mont;
+    font-size: 1.25rem;
+}
 
 
 /* Team */
@@ -557,6 +511,12 @@ img{width: 100%;}
 
   .text-scramble{
     height: 7rem;
+  }
+
+
+
+  .team-wrap{
+      width: 40%;
   }
  
   
@@ -578,6 +538,11 @@ img{width: 100%;}
     height: 9rem;
   }
 
+  .additional-info {
+  
+    padding-bottom: 30px;
+  }
+
   
 }
 
@@ -586,6 +551,11 @@ img{width: 100%;}
   
   .text-scramble{
     height: 11rem;
+  }
+
+  .additional-info {
+  
+    padding-bottom: 30px;
   }
 
   
