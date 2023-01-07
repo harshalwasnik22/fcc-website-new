@@ -313,6 +313,8 @@ h3{
   letter-spacing: 0.01rem;
 }
 /* Events */
+
+
 .events{
   padding-top: 1.5rem;
   padding-bottom: 1rem;
@@ -578,21 +580,79 @@ img{width: 100%;}
 
 /* Team */
 
+/* footer */
 
+footer{
+  /* position: absolute; */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* padding: 5%; */
+  background: #111;
+  height: auto;
+  width: 100vw;
+  font-family: "Open Sans";
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+  color: #49FE97;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: mont;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #49FE97;
+}
+.socials a i{
+  font-size: 1.4rem;
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: aqua;
+}
+
+
+/* footer */
 
 @media screen and (max-width: 1024px) {
-
-
   .text-scramble{
     height: 7rem;
   }
-
   .team-wrap{
       width: 40%;
   }
- 
-  
 }
+
+
 
 @media only screen and (max-width: 768px) {
   
@@ -602,7 +662,7 @@ img{width: 100%;}
   }
 
   .team-wrap{
-    width: 75%;
+    width: 65%;
     margin-top:75px;
   }
 
@@ -622,8 +682,11 @@ img{width: 100%;}
 @media only screen and (max-width: 512px) {
   
   .text-scramble{
-    height: 11rem;
+    height: 10rem;
+    font-size: 2rem;
   }
+
+  .logo img {width: 45px;}
 
   .additional-info {
     padding-bottom: 30px;
