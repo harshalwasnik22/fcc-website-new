@@ -69,7 +69,7 @@ class TextScramble {
     'NITRR'
   ]
   
-  const el = document.querySelector('.text-scramble')
+  const el = document.querySelector('')
   const fx = new TextScramble(el)
   
   let counter = 0
