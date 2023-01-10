@@ -14,6 +14,7 @@
   outline:0;
   box-sizing: border-box;
   text-decoration: none;
+  scroll-behavior: smooth;
 }
 
 .body{
@@ -506,7 +507,10 @@ h3{
   font-size:12px;
 }
 
-img{width: 100%;}
+img{
+  width: 100%;
+  
+}
 
 .team-container{
   width: 100%;
@@ -544,6 +548,7 @@ img{width: 100%;}
 .team-member .team-img{
   position: relative;
   overflow: hidden;
+  aspect-ratio: 21/22;
 }
 
 .team-title{
