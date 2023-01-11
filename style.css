@@ -712,7 +712,7 @@ footer{
   /* padding: 5%; */
   background: #111;
   height: auto;
-  width: 100vw;
+  width: 100%;
   font-family: "Open Sans";
   padding-top: 40px;
   color: #fff;
