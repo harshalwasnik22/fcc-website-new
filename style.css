@@ -44,9 +44,11 @@ section{
   min-height: 100vh;
   background-size: cover;
   background-position: center;
-  position: relative;
+  position: relative; 
   background-image: url(./images/bg.png);
 }
+
+
 
 
 .nav-bar {
@@ -72,6 +74,11 @@ section{
   position: relative;
   text-transform: uppercase;
 }
+
+.menu li a:hover{
+  color: #49FE97;
+}
+
 .menu li a::after {
   content: "";
   position: absolute;
@@ -200,7 +207,7 @@ span{
 }
 
 .container{
-  padding-top: 4rem;
+  padding-top: 3rem;
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -269,7 +276,7 @@ h3{
 .social{
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   font-size: 17px;
   padding: 14px;
   /* margin-top:90px; */
@@ -284,6 +291,10 @@ h3{
   font-size: 30px;
   padding: 5px;
   margin: 5px;
+}
+
+.social a:hover{
+  color: aqua;
 }
 
 .about{
@@ -370,6 +381,7 @@ h3{
   background-color: #fff;
   box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
   cursor: pointer;
+  border-radius: 10px;
 }
 
 .img-container,
@@ -485,6 +497,7 @@ h3{
 
 .team{
   background-color: black;
+  background-image: url(./images/contactbg.png);
   padding-bottom: 20px;
 }
 .flex{
