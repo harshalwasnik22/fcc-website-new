@@ -8,6 +8,7 @@
     <title>FCC NITRR</title>  
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   </head>
   <body>
@@ -52,10 +53,10 @@
 
     <!------------- About Us ----------------->
     <section class="about" id="about">
-      <div class="container-about">
+      <div class="container-about" data-aos="zoom-out-up">
         <h1>WHO ARE WE</h1>
-        <p>Finance and Consulting Club is a student-run society. The club organizes bazillions of events such as workshops, quizzes, speaker sessions, and competitions, helping students cultivate and polish their skills. The club also empowers studens by allowing them to work on projects in collaboration with tip clubs of other colleges, hence grooming them befor they enter the real professional world.</p>
-        <div class="row">
+          <p>Finance and Consulting Club is a student-run society. The club organizes bazillions of events such as workshops, quizzes, speaker sessions, and competitions, helping students cultivate and polish their skills. The club also empowers studens by allowing them to work on projects in collaboration with tip clubs of other colleges, hence grooming them befor they enter the real professional world.</p>
+          <div class="row">
           <div class="col">
               <h1>OUR VISION</h1>
               <p>The vision of the Finance and Consulting Club is to cultivate interest among the students in the financial sector as well as to promote it as a viable career option post their engineering degree. FCC will enable students the oppurtunity to explore the world of Finance, Business consulting, and Analytics. The club plans to not only connect members with alumni and finance professionals but also extend practical financial education with job-specific knowledge. We plan to acheive this goal through collaborative learning and facilitating career continuity by connecting students, industry, and academics.</p>
@@ -77,12 +78,12 @@
         </div>
         <div class="events-cards">
           <div class="events-card-container">
-              <div class="item-container">
+              <div class="item-container"  data-aos="fade-up">
                   <div class="img-container">
                       <img src="./images/FCC Logo Colour.png" alt="Event image">
                   </div>
       
-                  <div class="body-container">
+                  <div class="body-container" >
                       <div class="overlay-events"></div>
       
                       <div class="event-info">
@@ -98,12 +99,12 @@
                   </div>
               </div>
       
-              <div class="item-container">
+              <div class="item-container" data-aos="fade-up">
                   <div class="img-container">
                       <img src="./images/FCC Logo Colour.png" alt="Event image">
                   </div>
       
-                  <div class="body-container">
+                  <div class="body-container" >
                       <div class="overlay-events"></div>
       
                       <div class="event-info">
@@ -120,7 +121,7 @@
                   </div>
               </div>
       
-              <div class="item-container">
+              <div class="item-container"  data-aos="fade-up">
                   <div class="img-container">
                       <img src="./images/FCC Logo Colour.png" alt="Event image">
                   </div>
@@ -140,12 +141,12 @@
                   </div>
               </div>
       
-              <div class="item-container">
+              <div class="item-container" data-aos="fade-up">
                   <div class="img-container">
                       <img src="./images/FCC Logo Colour.png" alt="Event image">
                   </div>
       
-                  <div class="body-container">
+                  <div class="body-container" >
                       <div class="overlay-events"></div>
       
                       <div class="event-info">
@@ -599,5 +600,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <script type="module" src="/main.js"></script>
     <script type="module" src="./scramble.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
