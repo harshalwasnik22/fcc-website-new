@@ -15,10 +15,15 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
+
 }
 
-.body{
+body{
   overflow-x: hidden;
+  /* -webkit-scrollbar::{display: none;} */
+}
+body::-webkit-scrollbar {
+  display: none;
 }
 
 section{
@@ -331,6 +336,7 @@ h3{
   padding-top: 1.5rem;
   padding-bottom: 1rem;
   background-color: rgb(0, 0, 0);  
+
 }
 
 .events-container{
