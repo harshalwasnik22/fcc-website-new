@@ -522,6 +522,7 @@ h3{
     gap: 3rem 3rem;
     margin-top: 40px;
   }
+  
   .card{
   /* background: red; */
   border-radius: 1.2rem;
@@ -529,15 +530,18 @@ h3{
   display: grid;
   grid-template-rows: 1.7fr 1fr;
   }
+
 .card img {
   height: 16rem;
   object-fit: contain;
  /* margin-top: -2rem; */
 }
+
 .card:hover{
   transform: scale(1.1);
   transition: all linear 0.2s;
 }
+
 .card-info h4{
 text-align: center;
 color: white;
