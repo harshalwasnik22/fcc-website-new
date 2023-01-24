@@ -95,6 +95,22 @@ section{
   transition: 0.15s ease-in-out;
 }
 .menu li a:hover:after {width: 100%;}
+
+
+.menu li::after{
+  content: '';
+    width: 0%;
+    height: 2px;
+    background:#49FE97;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.menu li:hover::after {
+  width: 100%;
+}
+
 .open-menu , .close-menu {
   position: absolute;
   color: var(--color1);
