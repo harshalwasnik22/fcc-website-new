@@ -913,6 +913,10 @@ footer{
     margin-top:75px;
   }
 
+  .card{
+    flex: 1 1 45%;
+  }
+
   .text-scramble{
     /* height: 9rem; */
     font-size: 2rem;
@@ -932,6 +936,9 @@ footer{
   .text-scramble{
     height: 10rem;
     font-size: 2rem;
+  }
+  .card{
+    flex: 1 1 50%;
   }
 
   .logo img {width: 45px;}
