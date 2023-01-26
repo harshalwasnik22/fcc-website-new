@@ -20,7 +20,9 @@
 html{
   width: 100vw;
   overflow-x: hidden;
+  
 }
+
 
 
 /* Preloader */
@@ -717,6 +719,195 @@ img{
 .team-img:hover .overlay{
   opacity: 1;
 }
+
+/* Contact */
+.contact{
+  padding: 0 2rem;
+background: #111;
+}
+.contact-heading{
+  display: grid;
+  grid-template-columns:auto 1fr;
+  align-items: center;
+  column-gap: 1.5rem;
+  padding-top: 3rem;
+  /* overflow: hidden; */
+}
+.contact-heading h4{
+  font-size: 3rem;
+  font-family: mont;
+  font-weight: 650;
+  color: white;
+}
+.underline{
+  width: 14.5rem;
+  height: 5px;
+  background: white;
+  margin-left: -2em;
+ 
+}
+.contact-box{
+  width: 85vw;
+  margin: 0 auto;
+  padding: 5rem 3rem;
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  position: relative;
+}
+.fcc-trans{
+  position: absolute;
+  height: 10rem;
+  object-fit: contain;
+  right: -50%;
+  top: -5%;
+  /* z-index: -10; */
+}
+.faq{
+  padding: 4rem 2rem;
+  background: linear-gradient(to top right , #000000, #434343);
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+}
+.faq-text{
+  transform: rotate(180deg);
+  writing-mode: vertical-lr;
+    text-align: center;
+   }
+   .faq-text h1{
+   margin-left: 1rem;
+   letter-spacing: 10px;
+   font-size: 28px;
+   font-weight: 600;
+   color: white;
+   }
+.form{
+  padding: 2rem 2.5rem;
+  display: grid;
+  background: #fff;
+}
+.form-heading{
+  color: #111;
+  font-family:monument;
+  margin: 0 auto 1.2rem auto;
+  font-size:23px;
+  
+}
+.question-box{
+  display: grid;
+  grid-template-rows: repeat(4,1fr);
+  /* row-gap: 1rem; */
+  margin: auto 0;
+  height: 100%;
+}
+.question{
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  /* padding-bottom: 2rem; */
+  column-gap: 1.2rem;
+  align-items: center;
+}
+.arrow{
+  height: 1.6rem;
+  /* background: white; */
+  object-fit: contain;
+}
+.question h4{
+  color: white;
+  font-size: 20px
+}
+.form-control{
+  width: 100%;
+  margin-bottom: 2rem;
+  padding: 0.75rem 1rem;
+  /* border-radius: 10px; */
+  /* border: none; */
+  
+}
+.submit-btn{
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5rem 3rem;
+  background: #111;
+  color: white;
+  font-size: 15px;
+  border-radius: 10px;
+}
+.submit-btn:hover{
+  cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+  .question h4{
+    font-size: 17px;
+  }
+    .fcc-trans {
+      height: 8rem;
+      top: -1%;
+    }
+}
+
+@media screen and (max-width:800px) {
+  
+  .contact-box{
+  grid-template-columns: 1fr;
+  grid-template-rows: 1.1fr 1fr;
+  }
+  .faq{
+    padding: 0rem 0rem;
+  }
+  .question-box{
+    padding: 2rem 1.5rem;
+  }
+  .underline{
+    width: 9rem;
+  }
+  .contact-heading h4{
+    font-size: 2.5rem;
+    font-weight: 600;
+  }
+     .fcc-trans {
+       display: none;
+     }
+}
+
+@media screen and (max-width:512px) {
+  .question h4 {
+    font-size: 15px;
+    padding: 1rem;
+  }
+  .fcc-trans{
+   display: none;
+  }
+    .underline {
+      width: 5rem;
+    }
+  
+    .contact-heading h4 {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    .question{
+      column-gap: .2rem;
+    }
+   
+  
+  .faq-text h1{
+    font-size: 20px;
+  }
+  .form-heading{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+    .contact-box {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1.1fr .5fr;
+      padding: 2rem 1rem;
+    }
+}
+
+/* End of Contact */
+
 
 .socials a{
   display: inline-block;
