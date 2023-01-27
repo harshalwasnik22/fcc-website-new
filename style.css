@@ -752,12 +752,14 @@ background: #111;
  
 }
 .contact-box{
-  width: 85vw;
+  max-width: 1150px;
+  /* width: 85vw; */
   margin: 0 auto;
   padding: 5rem 3rem;
   display: grid;
   grid-template-columns: 1.6fr 1fr;
   position: relative;
+  gap: 3rem;
 }
 .fcc-trans{
   position: absolute;
@@ -772,11 +774,13 @@ background: #111;
   background: linear-gradient(to top right , #000000, #434343);
   display: grid;
   grid-template-columns: 1fr 9fr;
+  font-family: mont;
 }
 .faq-text{
   transform: rotate(180deg);
   writing-mode: vertical-lr;
     text-align: center;
+    
    }
    .faq-text h1{
    margin-left: 1rem;
@@ -818,7 +822,8 @@ background: #111;
 }
 .question h4{
   color: white;
-  font-size: 20px
+  font-size: 16px;
+  font-weight: 500;
 }
 .form-control{
   width: 100%;
@@ -1050,7 +1055,7 @@ ul{
 }
 .logo2{
   /* transform: scale(0.7); */
-  width:65%;
+  width:55%;
 }
 .footer-col h4{
 	font-size: 18px;
@@ -1090,6 +1095,7 @@ ul{
 	padding-left: 8px;
 }
 .social-links{
+  display: flex;
   text-align: right;
   font-size: 1.5rem;
 }
