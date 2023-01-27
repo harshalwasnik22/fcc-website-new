@@ -354,11 +354,11 @@ h3{
 
 .about .container-about p{
   font-family: mont;
-  font-weight: 200;
+  font-weight: 300;
   text-align: justify;
   padding: 1.5rem;
   color: white;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.5;
   padding-top: 0;
   letter-spacing: 0.01rem;
@@ -383,6 +383,7 @@ h3{
 .events-container h2{
   padding: 1.5rem;
   text-align: center;
+
 }
 
 .events-cards {
@@ -399,9 +400,9 @@ h3{
   padding: 1.5rem;
   color: rgb(255, 255, 255);
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
   padding-top: 0;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.06rem;
 }
 
 .events-card-container {
@@ -415,7 +416,7 @@ h3{
 .item-container {
   position: relative;
   margin: 24px;
-  width: 270px;
+  width: 370px;
   height: 300px;
   overflow: hidden;
   background-color: #fff;
@@ -493,7 +494,7 @@ h3{
 .additional-info {
   border-top: 1px solid #bbb;
   margin-top: 12px;
-  padding: 28px;
+  padding: 32px;
   padding-bottom: 0;
 }
 
@@ -547,6 +548,7 @@ h3{
 }
 .center{
   text-align: center;
+  font-size: 1.3rem;
   }
   
   .spons-center{
@@ -555,7 +557,7 @@ h3{
     /* display: grid;
     grid-template-columns: repeat(auto-fill,minmax(275px,1fr)); */
     gap: 3rem 3rem; 
-    margin-top: 40px;
+    margin-top:70px;
   }
   
   .card{
