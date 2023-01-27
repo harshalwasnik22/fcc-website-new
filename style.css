@@ -231,7 +231,7 @@ header{
   color: #49FE97;
   font-family: monument;
   font-size: 2.3rem;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
 
 }   
 
@@ -239,7 +239,8 @@ header{
 h2{
   color: #49FE97;
   font-family: monument;
-  letter-spacing: 2px;
+  letter-spacing: 2.5px;
+  font-size: 1.8rem;
 }
 
 span{
@@ -549,7 +550,7 @@ h3{
 }
 .center{
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   }
   
   .spons-center{
@@ -854,7 +855,7 @@ ul{
 }
 .footer-col{
    padding: 0 15px;
-   text-align: right;
+   /* text-align: right; */
 }
 .logo2{
   /* transform: scale(0.7); */
@@ -898,10 +899,8 @@ ul{
 	padding-left: 8px;
 }
 .social-links{
-  display: flex;
-  flex-direction: column;
   text-align: right;
-  align-items: flex-end;
+  font-size: 1.5rem;
 }
 .footer-col .social-links a{
 	display: inline-block;
@@ -939,6 +938,8 @@ ul{
 .copyrt{
   text-align: center;
   font-family: mont;
+  padding-top: 30px;
+
   /* position: absolute; */
   /* bottom: 0; */
 }
@@ -1012,7 +1013,7 @@ ul{
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 813px) {
   
   .main-box{
     display: flex;
@@ -1020,7 +1021,7 @@ ul{
   }
 
   .team-wrap{
-    width: 65%;
+    width: 55%;
     margin-top:75px;
   }
 
