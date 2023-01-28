@@ -1135,11 +1135,24 @@ ul{
 .copyrt{
   text-align: center;
   font-family: mont;
-  padding-top: 30px;
+  padding-top: 10px;
 
   /* position: absolute; */
   /* bottom: 0; */
 }
+.goToTop{
+  text-align: center;
+  font-family: mont;
+  padding-top: 20px;
+  
+  /* position: absolute; */
+  /* bottom: 0; */
+}
+
+.goToTop a{
+  color:#49FE97;
+}
+
 
 /*responsive*/
 @media(max-width: 800px){
