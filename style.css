@@ -1,7 +1,4 @@
-@font-face {
-  font-family: monument;
-  src: url(/Font/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf);
-}
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
   font-family: mont;
@@ -140,7 +137,9 @@ section{
   position: relative;
   background-color: var(--color2);
   padding: 12px 20px;
-  font-family: monument;
+  font-family: 'Poppins';
+  font-size: large;
+  font-weight: 500;
 }
 .logo img {width: 60px;}
 .menu {display: flex;}
@@ -182,6 +181,7 @@ section{
     transition: 0.5s;
 }
 
+
 .menu li:hover::after {
   width: 100%;
 }
@@ -209,15 +209,28 @@ section{
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 80%;
+      width: 60%;
       height: 100vh;
       position: fixed;
       top: 0;
       right: -100%;
       z-index: 100;
-      background-color: white;
-      color: black;
-      transition: all 0.2s ease-in-out;
+      background-color: rgb(255, 255, 255);
+      color: white;
+      transition: all 0.8s ease-in-out;
+      background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.3px);
+-webkit-backdrop-filter: blur(5.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.3px);
+-webkit-backdrop-filter: blur(5.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
   }
   .menu li {margin-top: 40px;}
   .menu li a {padding: 10px;}
@@ -230,16 +243,16 @@ header{
 
 .text-scramble{
   color: #49FE97;
-  font-family: monument;
-  font-size: 2.3rem;
+  font-family: 'Poppins';
+  font-size: 3rem;
   letter-spacing: 2.5px;
-
+  font-weight: 700;
 }   
 
 
 h2{
   color: #49FE97;
-  font-family: monument;
+  font-family: 'Poppins';
   letter-spacing: 2.5px;
   font-size: 1.8rem;
 }
@@ -287,29 +300,30 @@ span{
 }
 
 .container .hero-text button{
-  background:white;
   font-size: 19px;
-  border: 2px solid white;
-  color: black;
-  font-family: monument;
+  border: 2px solid #49FE97;
+  color: white;
+  font-family: 'Poppins';
   border-radius: 30px;
   padding: 8px 30px;
   line-height: 24px;
   cursor: pointer;
+  background: #000;
+  font-weight: 500;
+  
 }
 
 .container .hero-text button:hover{
-  color:#49FE97 ;
+  color: black;
+  font-weight: 700;
   transition: 0.4s;
   border: 2px solid white;  
-  background: transparent;  
-  animation-name: pulse;
-	animation-duration: 1s;
-	animation-timing-function: linear;
+  background: white;  
+	
 }
 
 h3{
-  font-family: monument;
+  font-family: 'Poppins';
   color: #eee;
   text-align: justify;
   margin-right: 0.5rem;
@@ -319,7 +333,7 @@ h3{
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  font-size: 17px;
+  font-size: larger;
   padding: 14px;
   /* margin-top:90px; */
 }
@@ -336,7 +350,7 @@ h3{
 }
 
 .social a:hover{
-  color: aqua;
+  color: rgb(255, 255, 255);
 }
 
 .about{
@@ -346,12 +360,12 @@ h3{
 }
 
 .about .container-about h1{ 
-  font-family: monument;
+  font-family: 'Poppins';
   font-size: 1.7rem;
   margin: 1%;
   text-align: center;
   line-height: 1.5;
-  color: white;
+  color: #49FE97;
   letter-spacing: 2px; 
 }
 
@@ -587,7 +601,7 @@ h3{
 .card-info h4{
 text-align: center;
 color: white;
-font-family: monument;
+font-family: 'Poppins';
 font-size: 1.2rem;
 letter-spacing: 2px;
 margin-top: 1rem;
@@ -658,7 +672,7 @@ img{
 
 .team-container p{
   font-size: 1.2rem;
-  font-family: monument;
+  font-family: 'Poppins';
   margin: 1.5%;
   color: white;
 }
@@ -795,7 +809,7 @@ background: #111;
 }
 .form-heading{
   color: #111;
-  font-family:monument;
+  font-family:'Poppins';
   margin: 0 auto 1.2rem auto;
   font-size:23px;
   
@@ -959,7 +973,7 @@ background: #111;
     margin-bottom: 30px;
 	color:  #49FE97;
 	font-weight: 700;
-    font-family: monument;
+    font-family: 'Poppins';
 }
 .manager_container, .manager_item {
     display: flex;
@@ -996,7 +1010,7 @@ background: #111;
     margin-bottom: 30px;
 	color:  #49FE97;
 	font-weight: 700;
-    font-family: monument;
+    font-family: 'Poppins';
 
 }
 .associate_container, .associate_item {
