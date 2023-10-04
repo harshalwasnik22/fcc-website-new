@@ -418,7 +418,7 @@ h3 {
   text-align: justify;
   padding: 1.5rem;
   color: white;
-  font-size: 17px;
+  font-size: 19px;
   line-height: 1.5;
   padding-top: 0;
   letter-spacing: 0.01rem;
@@ -718,9 +718,9 @@ img {
 }
 
 .team-container p {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-family: monument;
-  margin: 1.5%;
+  margin: 20px;
   color: white;
 }
 
@@ -1061,8 +1061,6 @@ img {
 .manager_container {
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 60px;
-  margin-right: 50px;
 }
 
 .manager_item {
@@ -1081,7 +1079,6 @@ img {
 
 .associates {
   margin-top: 40px;
-
 }
 
 .associates h2 {
@@ -1105,8 +1102,6 @@ img {
 .associate_container {
   flex-direction: row;
   flex-wrap: wrap;
-  margin-left: 60px;
-  margin-right: 50px;
 }
 
 .associate_item {
@@ -1446,6 +1441,9 @@ img {
   padding: 0;
 }
 
+.card_image{
+  
+}
 .cards_item {
   display: flex;
   padding: 1rem;
@@ -1459,32 +1457,31 @@ img {
 
 @media (min-width: 56rem) {
   .cards_item {
-    width: 33.3333%;
+    width: 25%;
   }
 }
 
 .card {
-
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 10px 10px 0px #49FE97;
+  background: rgba(255, 255, 255, 0.08);
   -webkit-transition: all 200ms ease-in-out;
   transition: all 200ms ease-in-out;
-  
+  border-radius: 0.3rem;
 }
 
-.card:hover {
+/* .card:hover {
 
-  border-radius: 0.25rem;
+  border-radius: 0.3rem;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid #49FE97;
-  -webkit-transition: all 300ms ease-in-out;
+  border: 1.5px solid #49FE97;
+  -webkit-transition: all 400ms ease-in-out;
   transition: all 300ms ease-in-out;
-}
+} */
 
 .card_content {
   padding: 1rem;
@@ -1493,20 +1490,21 @@ img {
 
 .card_title {
   color: #49FE97;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   padding-bottom: 10px;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.15rem;
   font-family: monument;
   margin: 0px;
 }
 
 .card_text {
   color: #ffffff;
-  font-size: 0.775rem;
+  font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1.25rem;
   font-family: mont;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
+  padding: 0.2rem;
 }
 
 .wrapper {
@@ -1547,8 +1545,6 @@ img {
   transition: 0.5s;
   margin-right: 45px;
 }
-
-
 
 span:nth-child(2) {
   width: 20px;
